@@ -1,5 +1,5 @@
 
-#Project Title: Data Extraction and Text Analysis for Blackcoffer Company
+Project Title: Data Extraction and Text Analysis for Blackcoffer Company
 
 Project Overview:
 The aim of this project is to perform data extraction and text analysis for Blackcoffer Company, focusing on extracting insights, patterns, and valuable information from unstructured text data. This project involves utilizing various natural language processing (NLP) techniques and tools to extract meaningful insights from textual data sources.
