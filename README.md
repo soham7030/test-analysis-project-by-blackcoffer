@@ -1,73 +1,40 @@
-# Data_Extraction_and_Text_Analysis_for_Blackcoffer_company.
 
-Blackcoffer
-Consulting Website:  https://blackcoffer.com | https://lsalead.com/
-Web App Products: https://netclan.com/ | https://insights.blackcoffer.com/ | https://hirekingdom.com/ | https://workcroft.com/
-Mobile App Products: Netclan | Bwstory
+#Project Title: Data Extraction and Text Analysis for Blackcoffer Company
 
-Data Extraction and NLP
-Test Assignment
+Project Overview:
+The aim of this project is to perform data extraction and text analysis for Blackcoffer Company, focusing on extracting insights, patterns, and valuable information from unstructured text data. This project involves utilizing various natural language processing (NLP) techniques and tools to extract meaningful insights from textual data sources.
 
-Objective
-The objective of this assignment is to extract textual data articles from the given URL and perform text analysis to compute variables that are explained below. 
+Project Objectives:
 
-Data Extraction
-Input.xlsx
-For each of the articles, given in the input.xlsx file, extract the article text and save the extracted article in a text file with URL_ID as its file name.
-While extracting text, please make sure your program extracts only the article title and the article text. It should not extract the website header, footer, or anything other than the article text. 
+Data Collection: Gather unstructured text data from various sources such as customer reviews, social media, emails, and other relevant sources related to Blackcoffer Company.
 
-NOTE: YOU MUST USE PYTHON PROGRAMMING TO EXTRACT DATA FROM THE URLs. YOU CAN USE BEATIFULSOUP, SELENIUM OR SCRAPY, OR ANY OTHER PYTHON LIBRARIES THAT YOU PREFER FOR DATA CRAWLING. 
+Data Preprocessing: Clean the collected data by removing noise, irrelevant information, and standardizing the text format to prepare it for analysis.
 
-Data Analysis
-For each of the extracted texts from the article, perform textual analysis and compute variables, given in the output structure excel file. You need to save the output in the exact order as given in the output structure file, “Output Data Structure.xlsx”
-NOTE: YOU MUST USE PYTHON PROGRAMMING FOR THE DATA ANALYSIS
+Text Extraction: Utilize techniques like web scraping, APIs, and manual extraction to gather textual data from different platforms and sources.
 
+Text Analysis: Apply NLP techniques such as tokenization, stemming, lemmatization, and part-of-speech tagging to understand the structure and semantics of the text.
 
-Variables
-Definition of each of the variables given in the “Text Analysis.docx” file.
-Look for these variables in the analysis document (Text Analysis.docx):
-POSITIVE SCORE
-NEGATIVE SCORE
-POLARITY SCORE
-SUBJECTIVITY SCORE
-AVG SENTENCE LENGTH
-PERCENTAGE OF COMPLEX WORDS
-FOG INDEX
-AVG NUMBER OF WORDS PER SENTENCE
-COMPLEX WORD COUNT
-WORD COUNT
-SYLLABLE PER WORD
-PERSONAL PRONOUNS
-AVG WORD LENGTH
+Sentiment Analysis: Analyze the sentiment of the extracted text to gauge customer satisfaction, public perception, and brand sentiment towards Blackcoffer Company.
 
-Output Data Structure
-Output Variables: 
-All input variables in “Input.xlsx”
-POSITIVE SCORE
-NEGATIVE SCORE
-POLARITY SCORE
-SUBJECTIVITY SCORE
-AVG SENTENCE LENGTH
-PERCENTAGE OF COMPLEX WORDS
-FOG INDEX
-AVG NUMBER OF WORDS PER SENTENCE
-COMPLEX WORD COUNT
-WORD COUNT
-SYLLABLE PER WORD
-PERSONAL PRONOUNS
-AVG WORD LENGTH
-Checkout output data structure spreadsheet for the format of your output, i.e. “Output Data Structure.xlsx”.
+Topic Modeling: Employ topic modeling algorithms such as Latent Dirichlet Allocation (LDA) or Non-negative Matrix Factorization (NMF) to identify prevalent topics and themes within the text data.
 
-Timeline
-6 days, sooner is better. 
+Entity Recognition: Use Named Entity Recognition (NER) to identify and extract entities such as organizations, people, locations, and product names mentioned in the text.
 
-Where to submit
-To submit your solution, please fill this google sheet and upload your article to google drive, and share the drive url in the google sheet: https://forms.gle/nvWAgrCBdq1JkKou8 
+Keyword Extraction: Identify key terms and phrases that are frequently mentioned in the text data, providing insights into important topics and trends.
 
-Make sure your submission contains:
-a) .py file
-b) output in csv or excel file as given in the output structure
-c) instructions
+Visualization: Create visualizations such as word clouds, bar charts, and scatter plots to present the findings and insights derived from the text analysis in a visually appealing and understandable manner.
 
+Insight Generation: Generate actionable insights and recommendations based on the findings of the text analysis to help Blackcoffer Company improve its products, services, and customer experience.
 
+Project Deliverables:
 
+Comprehensive report detailing the methodology, findings, and insights derived from the data extraction and text analysis process.
+Visualizations such as charts, graphs, and word clouds illustrating key findings and trends.
+Recommendations for Blackcoffer Company based on the insights obtained from the text analysis.
+Codebase and scripts used for data extraction, preprocessing, and text analysis for reproducibility and future use.
+Project Timeline:
+
+Data Collection and Preprocessing: 2 weeks
+Text Extraction and Analysis: 4 weeks
+Visualization and Insight Generation: 2 weeks
+Report Writing and Documentation: 2 weeks
